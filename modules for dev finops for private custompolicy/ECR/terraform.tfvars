@@ -1,0 +1,14 @@
+finops-ecr = "finopsecrdev"
+image_tag_mutability = "MUTABLE"
+tags = {"name":"sasi","org":"finops"}
+#lifecyclepolicy = []
+finopslifecyclepolicy = true
+#finopslifecycle = "Finopslifecycle"
+#  repository = "finopsecrdev"
+# finopslifecyclepolicy = true
+# rulePriority = 1
+# description = "Expire images older than 14 days"
+# tagStatus = "any"
+# countType = "sinceIMagePushed"
+# countUnit = "days"
+# countNumber = 14

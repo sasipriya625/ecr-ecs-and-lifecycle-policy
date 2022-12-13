@@ -1,0 +1,17 @@
+region = "us-east-1"
+finops-cluster = "Finops-Cluster"
+finops-ecr = "finopsecrdev"
+image_tag_mutability = "MUTABLE"
+tags = {"name":"sasi","org":"finops"}
+tagname = ["any","Expire images older than 30 days"]
+#finopslifecycle = "Finopslifecycle"
+finopslifecyclepolicy = true
+policyenabled = false
+#  repository = "finopsecrdev"
+# finopslifecyclepolicy = true
+# rulePriority = 1
+# description = "Expire images older than 14 days"
+# tagStatus = "any"
+# countType = "sinceIMagePushed"
+# countUnit = "days"
+# countNumber = 14
